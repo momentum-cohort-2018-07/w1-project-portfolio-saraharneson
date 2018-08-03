@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Assistant', sans-serif;
+    font-weight: regular;
+    background-color:#476263;
+}
+
+.container {
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+
+.top-bar img {
+    max-width: 100%;
+    /* max-width: 1500px; */
+    width: 100%;
+    background-color:#476263;
+}  
+
+
+h1 {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    font-size: 4rem;
+    color: #DE623F;
+    text-align: center;
+    line-height; 3rem;
+    
+}
+
+h2 {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    color: #DE623F;
+    text-align: center;
+    margin-bottom: 1.25rem;
+    line-height: 2rem;
+    /* text-transform: uppercase; */
+}
+
+.top-nav {
+    background-color:#476263;
+    width: 100%;
+    height: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.nav-item {
+    display: inline-block;
+    /* color: #476263; */
+    /* font-family: 'Rock Salt', cursive; */
+    text-align: center;
+    padding-top: 4px;
+    padding-right: 40px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    /* color: #476263; */
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 800;
+    /* font-family: 'Rock Salt', cursive; */
+    text-align: center;
+
+}
+
+.info-block {
+    margin: 20px;
+    /* display: block; */
+    display: inline-block;
+
+}
+
+.info-pic img {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+}
+
+.info-description {
+    vertical-align: top;
+}
+
+.info-description h3 {
+    text-transform: uppercase;
+    color: #476263;
+    vertical-align: top;
+}
+
+
+.footer-bar {
+
+    /* float: both; */
+    margin-top: 10px;
+    text-align: center;
+}
+
+.social a {
+    text-decoration: none;
+    color: #DE623F;
+    padding-right: 10%;
+    text-align: center;
+}
+
+
+.social a:hover {
+    color: #476263;
+}
+
+.copyright {
+    margin-top: 10px;
+    padding-bottom: 20px;
+    font-size: .9rem;
+}
+
+.inner-top-bar {
+    max-width: 100%;
+    background-color: #476263;
+}
+
+.inner-top-bar h2 {
+    background-color: #476263;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.25rem;
+    line-height: 2rem;
+    float: right;
+    text-align: left;
+    /* text-transform: uppercase; */
+}
+
+
+
+@media screen and (max-width: 1024px) {}
+@media screen and (min-width: 768px) 
+  and (max-width: 1023px) {}
+
+
+
+
+
+
+/* <link href="https://fonts.googleapis.com/css?family=Assistant:200|Libre+Baskerville:700" rel="stylesheet"> */
+/* 
+font-family: 'Assistant', sans-serif;
+font-family: 'Libre Baskerville', serif; */
+
+
+
+/*
+  * phones: < 768px
+  * tablets: >= 768px 
+  * desktops: >= 992px
+  * big desktops: >= 1200px
+*/
+/* 
+@media screen and (min-width: 992px) {
+    body {
+      background-color: hsla(127, 70%, 57%, 1);
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    body {
+      background-color: hsla(127, 67%, 24%, 1);
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .hours, .directions {
+      width: 100%;
+      margin-right: 0%;
+      float: none;
+    }
+  
+    .plant {
+      width: 100%;
+      margin-right: 0%;
+      float: none;
+      overflow: hidden;
+    }
+  }
+   
+  @media screen and (max-width: 480px) {
+    .plant__image {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      float: none;
+    }
+  
+    .store-image {
+      width: 100%;
+      margin: 0;
+      float: none;
+    }
+  }
+  
